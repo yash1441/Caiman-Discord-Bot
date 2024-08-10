@@ -32,7 +32,7 @@ module.exports = {
 			"❌": 0,
 			"Discord ID": discordId,
 			"Discord Name": embed.data.author.name,
-			"Role ID": rid,
+			"RID": rid,
 		};
 
 		const success = await lark.createRecord(
